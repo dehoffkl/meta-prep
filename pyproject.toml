@@ -5,11 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "duckdb>=1.5.5",
     "jupyterlab>=4.6.3",
     "matplotlib>=3.11.1",
     "numpy>=2.5.2",
     "pandas>=3.0.5",
     "pyspark>=4.2.0",
+    "scipy",
 ]
 
 [project.scripts]
